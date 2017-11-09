@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:id="@+id/control_v"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000">
+
+        <View
+            android:id="@+id/control_seperator"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ffffff"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/control_seperator"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            >
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:text="cancel"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                />
+
+            <Button
+                android:id="@+id/crop_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:text="save"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <com.example.macmini1.takephoto.Crop.CropImageView
+        android:id="@+id/cropimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/control_v"
+        />
+
+
+</RelativeLayout>
+
+
