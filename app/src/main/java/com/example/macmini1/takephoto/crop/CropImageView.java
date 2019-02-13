@@ -1,4 +1,4 @@
-package com.example.macmini1.takephoto.Crop;
+package com.example.macmini1.takephoto.crop;
 
 import android.content.Context;
 import android.graphics.Bitmap;

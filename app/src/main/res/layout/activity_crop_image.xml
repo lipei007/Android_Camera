@@ -58,7 +58,7 @@
 
     </RelativeLayout>
 
-    <com.example.macmini1.takephoto.Crop.CropImageView
+    <com.example.macmini1.takephoto.crop.CropImageView
         android:id="@+id/cropimage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
